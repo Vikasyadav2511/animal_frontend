@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Addshopbtn{
+    display: flex;
+    justify-content: end;
+    background-color: blueviolet;
+}
+
+.AddShop_btn{
+    background-color: #FFBD4A;
+}

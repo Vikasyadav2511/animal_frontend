@@ -1,0 +1,22 @@
+.Blog{
+    min-height: 500px;
+    width: 100%;
+    background-color: rgb(229,222,217);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.blog{
+    height: 25px;
+    width:200px;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: black;
+    cursor: pointer;
+}
+.blog:hover{
+    background-color: rgb(112,39,57);
+}

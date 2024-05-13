@@ -1,0 +1,58 @@
+/* About1 starts here */
+
+.Abimg1{
+    height: 580px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/AboutImages/about-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow{
+    color: rgb(213, 168, 43);
+}
+/* 
+About1Comp ends here */
+
+/* About2Comp starts here */
+.Ab2{
+    padding: 70px 0px;
+    /* clip-path: polygon(100% 30%, 100% 100%, 0 100%, 0 30%, 50% 0); */
+}
+
+/* About1Comp ends here */
+
+/* StoryComp starts here */
+
+.btn2{
+    background-color: #f7be51;
+    color: black ;
+}
+
+.btn2:hover{
+    background-color: rgb(81, 163, 186);
+    box-shadow: 0px 2px 5px black;
+}
+
+
+@media only screen and (min-width:320px) and (max-width:425px) {
+    .Mission h1{
+            font-size: 22px !important;
+    }
+
+    .Mission h5{
+        margin: 10px !important;
+        color: blueviolet;
+}
+}
+
+
+
+
+
+
+

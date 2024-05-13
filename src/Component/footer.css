@@ -1,0 +1,82 @@
+.Footer{
+    min-height: 700px;
+    width: 100%;
+    background-color: #702739;
+}
+
+/* Footer starts here */
+ .Adfoot ul li{
+    list-style: none;
+    color: white;
+
+} 
+
+.Adfoot2 li{
+    list-style: none;
+    color: white;
+    margin-top: 12px;
+   
+}
+
+ul{
+    padding: 0 !important;
+
+}
+
+.footinput input{
+        outline: none;
+        padding: 10px 40px;
+} 
+
+
+.unstyled-link {
+    text-decoration: none;
+    color: white;
+}
+
+.footinput button{
+    background-color: rgb(243,176,50);
+    
+}
+.footicons{
+    display: flex;
+    margin-top: 50px;
+    /* justify-content: center; */
+}
+.footicons1{
+    background-color: white;
+    color: #702739;
+    margin-right: 13px;
+    border-radius: 50%;
+    font-size: 23px;
+    padding: 10px;
+    transition: all 0.3s;
+}
+.footicons1:hover{
+    background-color: rgb(243,176,50);
+}
+.footicons2{
+    color: gray;
+    margin: 70px 0;
+}
+.footicons2 span:hover{
+    color: rgb(243,176,50);
+    cursor: pointer;
+}
+.loginbtn{
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+@media only screen and (min-width:320px) and (max-width:425px){
+    .footinput p{
+            font-size: 20px !important;
+    }
+    .footinput input{
+        width: 65%;
+    }
+
+
+}

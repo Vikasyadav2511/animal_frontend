@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+.Addcategory{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243,244,247);
+  background-color: #161818 !important;
+  
+}
+
+.category{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 50%;
+    height: 400px;
+    
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.submit_btn{
+    background-color:#FFBD4A;
+    color: white;
+}
+
+.addbtnn{
+    background-color: transparent;
+    border: 1px solid #FFBD4A;
+}
+
+.addbtnn:hover{
+    background-color: #FFBD4A;
+    border:transparent;
+    color: black;
+}
+
+.head{
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+  font-family: "Bebas Neue", sans-serif !important;
+    font-size: 50px;
+}
+
+.searchinp{
+    height: 42px;
+    width: 400px;
+    border-radius: 40px;
+    padding-left:20px;
+    background-color: rgba(0, 0, 0, 0.646);
+    color: white;
+}
+.searchinp:placeholder-shown{
+    color: white;
+}
+
+.pbtn{
+    height: 55px;
+    width: 55px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: #FFBD4A;
+    border: 1px solid #FFBD4A;
+    
+}
+
+.pbtn:hover{
+    /* background-color: transparent; */
+    background-color: #FFBD4A;
+    border: 1px solid #FFBD4A;
+    color: #ffffff;
+}

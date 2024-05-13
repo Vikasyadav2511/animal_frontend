@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.lgnbtn{
+  background-color: transparent !important;
+  border: 1px solid #FFBD4A;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFBD4A;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.mid{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.barbtn{
+  color: #FFBD4A;
+}
+
+.css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
+  border: none !important;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover {
+  /* background-color: rgb(244,177,53) !important; */
+  /* font-family: "Bebas Neue", sans-serif !important; */
+  transition: 1s all;
+}
+
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root{
+  
+  transition: 1s all;
+  color: white !important;
+}
+
+.css-10hburv-MuiTypography-root {
+  /* font-weight: 700 !important; */
+  
+}
+
+.css-cveggr-MuiListItemIcon-root{
+  color: #FFBD4A !important;
+}
+.css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root:hover  {
+  color:rgb(252, 249, 249) !important;
+} 
+
+.nav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png); 
+  height: 120px !important;
+  
+}
+
+.butt{
+  height: 40px !important;
+  width: 40px !important;
+  border: 1px solid #FFBD4A !important;
+  color: #FFBD4A !important;
+
+}
+
+*{
+
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.css-1k455el {
+  height: 154px !important;
+}
+.title{
+  font-family: "Bebas Neue", sans-serif !important;
+}
+
+.sidenav{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.284),rgba(0, 0, 0, 0.284)) , url(https://nikolas-next.vercel.app/_next/static/media/pattern.25aa6280.png); 
+  padding-top: 50px;
+  border-top: 1px solid rgba(111, 109, 109, 0.37);
+}
+
+.css-h4y409-MuiList-root{
+  padding-top: 50px !important;
+  box-shadow: rgba(215, 220, 225, 0.48) 6px 2px 16px 0px, rgba(226, 220, 220, 0.8) -6px -2px 16px 0px !important;
+
+}
+
+.css-10hburv-MuiTypography-root{
+  line-height: 2.5 !important;
+  font-family: "Bebas Neue", sans-serif !important;
+  font-size: 20px !important;
+  /* word-spacing: 30px; */
+}
+
+.css-ttn1xo {
+  background-color: #161818 !important;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.css-yfo96e{
+  background-color: #161818 !important;
+  height: 100vh;
+  overflow-y: scroll;
+
+
+}
+.table>:not(caption)>*>*{
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.511);
+  border: transparent;
+}
+
+.table>tbody{
+  border: transparent;
+}
+
+
+.table>thead{
+  border-top: transparent;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.207);
+  text-transform: capitalize;
+}
+
+th{
+  padding-bottom:30px !important
+}
+
+
+body{
+  color: none;
+}
+
+.feditbtn{
+  /* border: 1px solid #FFBD4A; */
+  /* height: 30px;
+  width: 30px; */
+
+}
+
+.feditbtn Button{
+  color: #FFBD4A;
+}
+
+
+.table>:not(caption)>*>* {
+  text-align: left;
+}
+
+
+
+.usersearchinp{
+  height: 42px;
+  width: 400px;
+  border-radius: 40px;
+  padding-left:20px;
+  background-color: rgba(0, 0, 0, 0.646);
+  margin-bottom: 20px;
+  color: white;
+}
+.usersearchinp:placeholder-shown{
+  color: white;
+}

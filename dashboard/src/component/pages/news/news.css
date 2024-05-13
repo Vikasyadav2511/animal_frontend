@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.newsbtnn{
+    background-color: rgb(224, 138, 34);
+    border: none;
+    box-shadow: 1px 2px 3px grey;
+}
+.newsbtnn:hover{
+    background-color: rgb(224, 138, 34);
+
+}
+.submit_btn1{
+    background-color: rgb(224, 138, 34);
+}
+.mainnews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Addnews1{
+    width: 50%;
+    /* height: 70px; */
+}

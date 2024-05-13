@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.Adimg{
+    height: 580px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../Images/Adopt/adoption-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adopt1{
+    background-color: rgb(250,246,242);
+}
+.search1{
+    border: 1px solid rgb(172, 167, 167);
+    padding: 40px 0px;
+}
+.search1 input{
+    outline: none;
+}
+.searchbtn{
+    background-color: #702739;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: -10px;
+    margin-top: -4px;
+}
+.searchbtn:hover{
+    background-color: goldenrod;
+    
+}
+.newdiv{
+    background-color: #702739;
+}
+.Home{
+   font-size: 80px;
+   color: white;
+   margin: 40px 85px;
+   text-align: center !important;
+
+}
+.btncomp{
+    background-color:goldenrod;
+    border: none;
+    color: black;
+    padding: 18px 30px;
+    margin-top: 10px
+}
+.btncomp:hover{
+   background-color: rgb(21, 161, 161);
+    color: black;
+}
+
+.lbtn{
+    background-color: rgb(65, 248, 187);
+    border: none;
+    color: black;
+}
+.lbtn:hover{
+    background-color:#702739;
+}
+
+.voilet{
+    background-color: #702739;
+    min-height: 611px;
+    gap: 1;
+    padding-top: 300px;
+}
+
+.sbtn{
+    background-color:goldenrod ;
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-weight: 400;
+
+}
+.breedbtn1{
+    margin-left: 20px;
+}
+.saus{
+    margin-left: -200px;
+}
+.sausdiv{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 40%;
+    margin-left: 100px;
+}
+.About1{
+        height: 650px;
+        border: 1px solid grey;
+        box-shadow: 2px 3px 1px rgb(192, 188, 188);
+}
+.accordion-button:not(.collapsed){
+    background-color: none;
+}
+
+.accordion-button:focus{
+        outline: none;
+        box-shadow: none;
+}
+.accordion-button::after{
+    background-image: url('https://www.freepnglogos.com/uploads/plus-icon/plus-icon-plus-math-icon-download-icons-9.png');
+    background-size: cover;
+    /* background-color: #702739; */
+    color: rgb(253, 250, 250);
+}
+
+.accordion-button:not(.collapsed)::after{
+        background-image: url('https://icons.veryicon.com/png/o/miscellaneous/cronyicon/minus-sign-24.png');
+    color: rgb(25, 3, 3);
+    background-size: cover;
+
+
+}
+
+.form{
+    min-height: 650px;
+    /* border: 2px solid black; */
+    background-color: rgb(241,169,33);
+    margin-top: 50px;
+}
+
+.single_1{
+    height: 45px;
+    width: 100%;
+    border: 2px solid none;
+    text-align: start;
+    padding-left: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.accordion-header {
+   
+    z-index: 1;
+}
